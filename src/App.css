@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+
+*{
+  font-family: 'Prompt', sans-serif;
+}
+
+.App {
+  min-height: 100vh;
+}
+
+.container {
+  background: #f5f3f5;
+  padding: 1.2rem;
+  margin: 3rem auto;
+  max-width: 35rem;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.light {
+  background: #e4e6eb;
+  color: #000;
+  transition: all 500ms;
+}
+
+.dark {
+  background: #242526;
+  color: #f5f3f5;
+  transition: all 500ms;
+}

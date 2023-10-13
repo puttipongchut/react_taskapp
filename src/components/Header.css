@@ -1,0 +1,27 @@
+header{
+    min-height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    font-weight: bold;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+.logo{
+    display: flex;
+    align-items: center;
+    
+}
+.logo span{
+    font-size: 40px;
+}
+.theme-container{
+    font-size: 25px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.theme-container .icon{
+    font-size: 35px;
+    padding-left: 1rem;
+}
